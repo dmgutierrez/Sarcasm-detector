@@ -27,7 +27,7 @@ Since the models are very large files, you need to **download the model** files 
         │   ├── training.txt        # Training Description
         │   ├── weights.txt         # Model weights
 
-## Requirements
+## Set Up
 All the requirements needed to run this project are included in the requirements.txt file. To make sure that you have all the dependencies, we recommend you to execute the following commands:
 - Create a new Python environment i.e using Anaconda
 ```bash
