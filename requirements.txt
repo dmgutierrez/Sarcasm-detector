@@ -1,0 +1,7 @@
+flask
+colorlog
+pandas
+scikit-learn
+torch
+torchvision
+flair
