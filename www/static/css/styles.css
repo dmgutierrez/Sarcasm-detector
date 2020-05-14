@@ -1,0 +1,25 @@
+body {
+  background-image: url('/static/img/background.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
+
+heading {
+      font-family: 'Raleway', sans-serif;
+      font-size: 46px;
+  }
+
+.jumbotron {
+    background: none;             /* Transparent background */
+}
+#content{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+#containerIndex, #titleRes{
+  padding-top: 110px;
+
+}
