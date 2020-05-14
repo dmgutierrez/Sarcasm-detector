@@ -15,7 +15,17 @@ We have included the dataset in both .csv and json format in the /resources fold
 ## Models
 
 Since the models are very large files, you need to **download the model** files from this [**link**](https://drive.google.com/uc?export=download&id=1aU-Cs7l0oQ2Ms2k4HSd7WD7ribzEBR3X
-) and uncompress the **models.zip** file. This will generate a directory such as /models/sarcasm/.
+) and uncompress the **models.zip** file. This will generate a directory such as:
+
+    .
+    ├── models
+        ├── sarcasm                 # Main Folder
+        │   ├── best-model.pt       # Best model during training
+        │   ├── final-model.pt      # Final trained model
+        │   ├── loss.tsv            # Loss function values during training
+        │   ├── test.tsv            # Test results during training
+        │   ├── training.txt        # Training Description
+        │   ├── weights.txt         # Model weights
 
 ## Requirements
 All the requirements needed to run this project are included in the requirements.txt file. To make sure that you have all the dependencies, we recommend you to execute the following commands:
@@ -45,12 +55,11 @@ python app.py
 - Go to http://your_host:your_port and enjoy!
 
 ## User Interface
-
-### Main Page of the interface
+- Main Page of the interface
 
 ![image](https://github.com/dmgutierrez/Sarcasm-detector/blob/master/images/main_page.PNG)
 
-### Sarcasm Detector Result
+- Sarcasm Detector Result
 
 ![image](https://github.com/dmgutierrez/Sarcasm-detector/blob/master/images/result_page.PNG)
 
