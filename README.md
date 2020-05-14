@@ -45,11 +45,12 @@ python app.py
 - Go to http://your_host:your_port and enjoy!
 
 ## User Interface
-- Main Page of the interface
+
+### Main Page of the interface
 
 ![image](https://github.com/dmgutierrez/Sarcasm-detector/blob/master/images/main_page.PNG)
 
-- Sarcasm Detector Result
+### Sarcasm Detector Result
 
 ![image](https://github.com/dmgutierrez/Sarcasm-detector/blob/master/images/result_page.PNG)
 
