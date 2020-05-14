@@ -12,6 +12,11 @@ In order to train the model, the *News Headlines Dataset* which contains a large
 
 We have included the dataset in both .csv and json format in the /resources folder.
 
+## Models
+
+Since the models are very large files, you need to **download the model** files from this [**link**](https://drive.google.com/uc?export=download&id=1aU-Cs7l0oQ2Ms2k4HSd7WD7ribzEBR3X
+) and uncompress the **models.zip** file. This will generate a directory such as /models/sarcasm/.
+
 ## Requirements
 All the requirements needed to run this project are included in the requirements.txt file. To make sure that you have all the dependencies, we recommend you to execute the following commands:
 - Create a new Python environment i.e using Anaconda
@@ -38,3 +43,13 @@ pip install -r requirements.txt
 python app.py
 ```
 - Go to http://your_host:your_port and enjoy!
+
+## User Interface
+- Main Page of the interface
+
+![image](https://github.com/dmgutierrez/Sarcasm-detector/blob/master/images/main_page.PNG)
+
+- Sarcasm Detector Result
+
+![image](https://github.com/dmgutierrez/Sarcasm-detector/blob/master/images/result_page.PNG)
+
