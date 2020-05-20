@@ -1,9 +1,9 @@
+import os
 from helper.custom_log import init_logger
-from helper import config as cfg
 from services.sarcasm_service import SarcasmService
 
-host = cfg.host
-port = cfg.port
+host = os.getenv("HOST_PORT") if "HOST_PORT" in os.environ else "localhost"
+port = int(os.getenv("API_PORT")) if "API_PORT" in os.environ else 5005
 
 # ========================================================
 models_dir = "models"

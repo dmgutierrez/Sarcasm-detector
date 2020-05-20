@@ -13,12 +13,6 @@ class SarcasmService(NLPService):
                             classifier=classifier)
         self.classifier = TextClassifier.load(self.model_full_path)
 
-    def train_model(self):
-        try:
-            pass
-        except Exception as e:
-            gv.logger.error(e)
-
     def launch_analyzer(self, input_data: {str}):
         response = {"value": "Not Available", "confidence": 0, "sentence": '"' + input_data + '"'}
         try:

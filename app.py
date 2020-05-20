@@ -19,12 +19,6 @@ def index():
                            url_sarcasm_sentiment=url_sarcasm_sentiment)
 
 
-@app.route('/sarcasm/train')
-def sarcasm_model_train():
-    return render_template('index.html', app_title=app_title,
-                           url_sarcasm_sentiment=url_sarcasm_sentiment)
-
-
 @app.route('/sarcasm/sentiment', methods=['GET', 'POST'])
 def sarcasm_sentiment_request():
     if request.method == 'POST':
