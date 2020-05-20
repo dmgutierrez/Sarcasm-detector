@@ -8,7 +8,7 @@ Moreover, we have implemented a simple user interface in order to make easier th
 
 ## Dataset
 
-In order to train the model, the *News Headlines Dataset* which contains a large set of balanced sarcasm/Non-sarcasm headlines. The Dataset can be downloaded from this [**Kaggle link**](https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection).
+In order to train the model, the *News Headlines Dataset* which contains a **large set of balanced sarcasm/Non-sarcasm headlines**. The Dataset can be downloaded from this [**Kaggle link**](https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection).
 
 We have included the dataset in both .csv and json format in the /resources folder.
 
@@ -26,6 +26,15 @@ Since the models are very large files, you need to **download the model** files 
         │   ├── test.tsv            # Test results during training
         │   ├── training.txt        # Training Description
         │   ├── weights.txt         # Model weights
+
+## Models performance
+The original dataset was split into three different subsets: **train, test and dev**. During the training process, the model is validated using the testing set. **Once the training process ends, we evalute the performance** of the **best model** using the remaining **dev subset**. The following table shows such performance results: 
+
+|Class| F1-Score | Accuracy | Precision | Recall
+| ------ | ------ | ------ | ------ | ------ |
+| Sarcastic (positive) | 0.8932 | 0.8071 | 0.8877 | 0.8988
+| Non-Sarcastic (negative) | 0.9017| 0.8210 | 0.9069 | 0.8966
+
 
 ## Set Up
 All the requirements needed to run this project are included in the requirements.txt file. To make sure that you have all the dependencies, we recommend you to execute the following commands:
