@@ -1,14 +1,9 @@
-
-helper/__pycache__/
-
-services/__pycache__/
-
 .idea/
-
-analyzer/__pycache__/
 
 app_logs/
 
 models/
 
 *.zip
+
+*.pyc
